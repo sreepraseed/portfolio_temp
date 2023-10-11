@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    align-items: center;
+    margin-left: 100px;
+}
+.logo{
+    width: 130px;
+}
+.list-item{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+}
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.links:hover{
+    color: darkgray;
+}
+.title{
+    margin: 13% 0px 0px 8% ;
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+#Iname{
+    color: gold;
+    font-size: 50px;
+}
+#user-detail{
+    line-height: 20px;
+}
+#DOWNLOAD{
+    text-decoration: none;
+    background-color: black;
+    color: azure;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    font-weight: bold;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right:30px ;
+    bottom: 0;
+
+}
+.images>img{
+    position: absolute;
+    height: 100%;
+    bottom: 0;
+    left: 30%;
+    transform:translate(-50%) ;
+    transition: bottom 1s , left 1s; 
+}
+
+.images:hover .shape{
+    bottom: 80px;
+}
+.images:hover .girl{
+    left: 40%;
+}
+#about{
+    margin: 20% 10% 0% 10%;
+}
+.about-head{
+    text-align: center;
+}
+.main-head{
+    font-size: 30px;
+}
+.subhead{
+    font-size: 20px;
+    color: green;
+}
